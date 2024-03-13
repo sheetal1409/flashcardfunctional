@@ -23,9 +23,6 @@
       "react-app/jest"
     ]
   },
-  "overrides": {
-    "@svgr/webpack": "$@svgr/webpack"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
