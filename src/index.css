@@ -1,13 +1,71 @@
 body {
-  margin: 0;
+  margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  height: 60%;
+  width: 60%;
+
+}
+
+.App {
+  height: 60%;
+  width: 60%;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flashCard {
+  margin: auto;
+  width: 60%;
+  height: 50%;
+  border: 1px solid red;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-display {
+  border: 1px solid brown;
+  border-radius: 30px;
+  width: 80%;
+}
+
+.cardDetail {
+  width: 100%;
+  height: 40%;
+  padding: auto;
+  border-radius: 20px;
+  font-style: italic;
+}
+
+.addCard {
+  height: 12%;
+  width: 60%;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: auto;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.addCard:hover {
+  background-color: darkgray;
 }
